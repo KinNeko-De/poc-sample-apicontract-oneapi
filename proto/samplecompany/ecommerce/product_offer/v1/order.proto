@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package samplecompany.ecommerce.product_offer.v1;
+
+message Order {
+  string product_id = 1;
+}

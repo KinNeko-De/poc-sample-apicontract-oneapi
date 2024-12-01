@@ -1,9 +1,7 @@
 version: v2
-modules:
-  - name: proto/samplecompany/ecommerce
 lint:
   use:
-    - DEFAULT
+    - STANDARD
 breaking:
   use:
     - FILE

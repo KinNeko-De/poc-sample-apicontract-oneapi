@@ -1,0 +1,16 @@
+version: v2
+modules:
+  - path: proto
+    name: github.com/samplecompany/another
+    includes:
+      - proto/samplecompany/another
+  - path: proto
+    name: github.com/samplecompany/ecommerce
+    includes:
+      - proto/samplecompany/ecommerce
+lint:
+  use:
+    - STANDARD
+breaking:
+  use:
+    - FILE

@@ -3,5 +3,5 @@ syntax = "proto3";
 package samplecompany.ecommerce.product_order.v1;
 
 message Product {
-  string name = 1;
+  string nameFd = 1;
 }

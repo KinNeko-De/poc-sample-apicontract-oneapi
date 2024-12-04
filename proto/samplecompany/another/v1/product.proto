@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-package samplecompany.another.v1;
-
-message Order {
-  string product_id = 1;
-}
